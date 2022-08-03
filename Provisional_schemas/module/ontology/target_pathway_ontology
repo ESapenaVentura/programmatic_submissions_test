@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/ESapenaVentura/programmatic_submissions_test/main/Provisional_schemas/ontology/target_pathway_ontology",
+  "$id": "https://raw.githubusercontent.com/ESapenaVentura/programmatic_submissions_test/main/Provisional_schemas/module/ontology/target_pathway_ontology",
   "description": "A term that may be associated with a process-related ontology term.",
   "additionalProperties": false,
   "required": [
