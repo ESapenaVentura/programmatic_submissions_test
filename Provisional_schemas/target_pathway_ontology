@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://schema.staging.data.humancellatlas.org/module/ontology/1.0.0/target_pathway_ontology",
+  "$id": "https://raw.githubusercontent.com/ESapenaVentura/programmatic_submissions_test/main/Provisional_schemas/target_pathway_ontology",
   "description": "A term that may be associated with a process-related ontology term.",
   "additionalProperties": false,
   "required": [
@@ -12,8 +12,7 @@
   "properties": {
     "describedBy": {
       "description": "The URL reference to the schema.",
-      "type": "string",
-      "pattern": "^(http|https)://schema.(.*?)humancellatlas.org/module/ontology/(([0-9]{1,}.[0-9]{1,}.[0-9]{1,})|([a-zA-Z]*?))/target_pathway_ontology"
+      "type": "string"
     },
     "schema_version": {
       "description": "The version number of the schema in major.minor.patch format.",
@@ -32,7 +31,7 @@
       "type": "string",
       "graph_restriction": {
         "ontologies": [
-          "obo:go"
+          "hcao:go"
         ],
         "classes": [
           "GO:0050789"
