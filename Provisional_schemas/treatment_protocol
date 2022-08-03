@@ -68,7 +68,7 @@
       "description": "Targeted pathway for specific treatment response.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/ESapenaVentura/programmatic_submissions_test/main/Provisional_schemas/module/ontology/target_pathway_ontology"
+        "$ref": "https://schema.staging.data.humancellatlas.org/module/ontology/1.0.0/treatment_method_ontology"
       },
       "user_friendly": "Target pathway",
       "example": "insulin signalling pathway; immune cell activation; chemokine signalling pathway."
